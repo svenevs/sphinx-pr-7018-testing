@@ -34,7 +34,19 @@ def filter_file(path: Union[Path, str], pattern: str,
 
     Return
     ------
-    pathlib.Path
-        A path is returned.
+    A path is returned.  A long paragraph.
+    It continues to the next line.
+
+    This is a longer description.
+
+    .. danger::
+
+        Danger is among us.
+
+        .. note::
+
+            I'm still in the docstring!
+
+    How fun.  To be in a docstring.
     """
     return Path(".")

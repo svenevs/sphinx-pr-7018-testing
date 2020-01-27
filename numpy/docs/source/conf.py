@@ -48,6 +48,7 @@ intersphinx_mapping = {
 
 napoleon_google_docstring = False
 napoleon_numpy_docstring = True
+napoleon_numpy_returns_no_rtype = True
 # ... /extension setup ...
 
 # Add any paths that contain templates here, relative to this directory.
